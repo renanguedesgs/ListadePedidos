@@ -32,13 +32,19 @@ Este comando vai garantir que o .NET baixe todos os pacotes necessários para rod
 5. Rodar a Aplicação
 Agora, execute a aplicação com o comando: dotnet run
 
-6. Testar a API
-Com a aplicação rodando, você pode testar as funcionalidades da API, como:
+6.Fazer o Login
 
-Criar pedidos
-Listar pedidos
-Atualizar pedidos
-Excluir pedidos
+Login como Administrador:
+Permissões: Criar, editar e excluir lanches e categorias, gerar relatórios, adicionar e gerenciar imagens, e realizar outras operações administrativas.
+Login: admin@localhost
+Senha: Numsey#2022
 
-7. Banco de Dados Configurado
+Login como Cliente:
+Permissões: Navegar pelos lanches, escolher um lanche favorito, selecionar a quantidade desejada, adicionar itens ao carrinho e finalizar a compra.
+Login: usuario@localhost
+Senha: Numsey#2022
+
+7. Testar a API
+
+8. Banco de Dados Configurado
 O banco de dados já está configurado e não é necessário realizar nenhuma configuração adicional. Ao rodar a aplicação, já sera possivel testar todas as funcionalidades do projeto sem necessidade de configuração extra.
